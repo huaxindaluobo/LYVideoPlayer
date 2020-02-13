@@ -16,6 +16,9 @@
 		062077BB23F51359002DCE99 /* LYVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062077BA23F51359002DCE99 /* LYVideoPlayerUITests.swift */; };
 		062077C923F51439002DCE99 /* LYMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062077C823F51439002DCE99 /* LYMainTabBarViewController.swift */; };
 		06207A9F23F5203F002DCE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06207A9D23F5203F002DCE99 /* Main.storyboard */; };
+		06207AA123F53BDF002DCE99 /* LYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */; };
+		06207AA323F53C79002DCE99 /* LYBaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */; };
+		06207AA523F53CE4002DCE99 /* LYLLiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		062077BC23F51359002DCE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		062077C823F51439002DCE99 /* LYMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMainTabBarViewController.swift; sourceTree = "<group>"; };
 		06207A9E23F5203F002DCE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseViewController.swift; sourceTree = "<group>"; };
+		06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseListViewController.swift; sourceTree = "<group>"; };
+		06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLLiveListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				0620779823F51358002DCE99 /* AppDelegate.swift */,
 				0620779A23F51358002DCE99 /* SceneDelegate.swift */,
 				0620779C23F51358002DCE99 /* ViewController.swift */,
+				06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */,
+				06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */,
+				06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */,
 				062077C823F51439002DCE99 /* LYMainTabBarViewController.swift */,
 				062077A123F51359002DCE99 /* Assets.xcassets */,
 				06207A9D23F5203F002DCE99 /* Main.storyboard */,
@@ -262,6 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06207AA323F53C79002DCE99 /* LYBaseListViewController.swift in Sources */,
+				06207AA123F53BDF002DCE99 /* LYBaseViewController.swift in Sources */,
+				06207AA523F53CE4002DCE99 /* LYLLiveListViewController.swift in Sources */,
 				062077C923F51439002DCE99 /* LYMainTabBarViewController.swift in Sources */,
 				0620779D23F51358002DCE99 /* ViewController.swift in Sources */,
 				0620779923F51358002DCE99 /* AppDelegate.swift in Sources */,
