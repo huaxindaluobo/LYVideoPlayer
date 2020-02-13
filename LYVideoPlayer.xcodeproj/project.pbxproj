@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0620779923F51358002DCE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620779823F51358002DCE99 /* AppDelegate.swift */; };
+		0620779B23F51358002DCE99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620779A23F51358002DCE99 /* SceneDelegate.swift */; };
+		0620779D23F51358002DCE99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620779C23F51358002DCE99 /* ViewController.swift */; };
+		062077A023F51358002DCE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0620779E23F51358002DCE99 /* Main.storyboard */; };
+		062077A223F51359002DCE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062077A123F51359002DCE99 /* Assets.xcassets */; };
+		062077A523F51359002DCE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062077A323F51359002DCE99 /* LaunchScreen.storyboard */; };
+		062077B023F51359002DCE99 /* LYVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062077AF23F51359002DCE99 /* LYVideoPlayerTests.swift */; };
+		062077BB23F51359002DCE99 /* LYVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062077BA23F51359002DCE99 /* LYVideoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062077AC23F51359002DCE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0620778D23F51358002DCE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0620779423F51358002DCE99;
+			remoteInfo = LYVideoPlayer;
+		};
+		062077B723F51359002DCE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0620778D23F51358002DCE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0620779423F51358002DCE99;
+			remoteInfo = LYVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0620779523F51358002DCE99 /* LYVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0620779823F51358002DCE99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0620779A23F51358002DCE99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0620779C23F51358002DCE99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0620779F23F51358002DCE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062077A123F51359002DCE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		062077A423F51359002DCE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062077A623F51359002DCE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062077AB23F51359002DCE99 /* LYVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062077AF23F51359002DCE99 /* LYVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYVideoPlayerTests.swift; sourceTree = "<group>"; };
+		062077B123F51359002DCE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062077B623F51359002DCE99 /* LYVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062077BA23F51359002DCE99 /* LYVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		062077BC23F51359002DCE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0620779223F51358002DCE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077A823F51359002DCE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077B323F51359002DCE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0620778C23F51358002DCE99 = {
+			isa = PBXGroup;
+			children = (
+				0620779723F51358002DCE99 /* LYVideoPlayer */,
+				062077AE23F51359002DCE99 /* LYVideoPlayerTests */,
+				062077B923F51359002DCE99 /* LYVideoPlayerUITests */,
+				0620779623F51358002DCE99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0620779623F51358002DCE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0620779523F51358002DCE99 /* LYVideoPlayer.app */,
+				062077AB23F51359002DCE99 /* LYVideoPlayerTests.xctest */,
+				062077B623F51359002DCE99 /* LYVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0620779723F51358002DCE99 /* LYVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0620779823F51358002DCE99 /* AppDelegate.swift */,
+				0620779A23F51358002DCE99 /* SceneDelegate.swift */,
+				0620779C23F51358002DCE99 /* ViewController.swift */,
+				0620779E23F51358002DCE99 /* Main.storyboard */,
+				062077A123F51359002DCE99 /* Assets.xcassets */,
+				062077A323F51359002DCE99 /* LaunchScreen.storyboard */,
+				062077A623F51359002DCE99 /* Info.plist */,
+			);
+			path = LYVideoPlayer;
+			sourceTree = "<group>";
+		};
+		062077AE23F51359002DCE99 /* LYVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				062077AF23F51359002DCE99 /* LYVideoPlayerTests.swift */,
+				062077B123F51359002DCE99 /* Info.plist */,
+			);
+			path = LYVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		062077B923F51359002DCE99 /* LYVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				062077BA23F51359002DCE99 /* LYVideoPlayerUITests.swift */,
+				062077BC23F51359002DCE99 /* Info.plist */,
+			);
+			path = LYVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0620779423F51358002DCE99 /* LYVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062077BF23F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayer" */;
+			buildPhases = (
+				0620779123F51358002DCE99 /* Sources */,
+				0620779223F51358002DCE99 /* Frameworks */,
+				0620779323F51358002DCE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYVideoPlayer;
+			productName = LYVideoPlayer;
+			productReference = 0620779523F51358002DCE99 /* LYVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		062077AA23F51359002DCE99 /* LYVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062077C223F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayerTests" */;
+			buildPhases = (
+				062077A723F51359002DCE99 /* Sources */,
+				062077A823F51359002DCE99 /* Frameworks */,
+				062077A923F51359002DCE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062077AD23F51359002DCE99 /* PBXTargetDependency */,
+			);
+			name = LYVideoPlayerTests;
+			productName = LYVideoPlayerTests;
+			productReference = 062077AB23F51359002DCE99 /* LYVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		062077B523F51359002DCE99 /* LYVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062077C523F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayerUITests" */;
+			buildPhases = (
+				062077B223F51359002DCE99 /* Sources */,
+				062077B323F51359002DCE99 /* Frameworks */,
+				062077B423F51359002DCE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062077B823F51359002DCE99 /* PBXTargetDependency */,
+			);
+			name = LYVideoPlayerUITests;
+			productName = LYVideoPlayerUITests;
+			productReference = 062077B623F51359002DCE99 /* LYVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0620778D23F51358002DCE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "佳缘";
+				TargetAttributes = {
+					0620779423F51358002DCE99 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					062077AA23F51359002DCE99 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0620779423F51358002DCE99;
+					};
+					062077B523F51359002DCE99 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0620779423F51358002DCE99;
+					};
+				};
+			};
+			buildConfigurationList = 0620779023F51358002DCE99 /* Build configuration list for PBXProject "LYVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0620778C23F51358002DCE99;
+			productRefGroup = 0620779623F51358002DCE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0620779423F51358002DCE99 /* LYVideoPlayer */,
+				062077AA23F51359002DCE99 /* LYVideoPlayerTests */,
+				062077B523F51359002DCE99 /* LYVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0620779323F51358002DCE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062077A523F51359002DCE99 /* LaunchScreen.storyboard in Resources */,
+				062077A223F51359002DCE99 /* Assets.xcassets in Resources */,
+				062077A023F51358002DCE99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077A923F51359002DCE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077B423F51359002DCE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0620779123F51358002DCE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620779D23F51358002DCE99 /* ViewController.swift in Sources */,
+				0620779923F51358002DCE99 /* AppDelegate.swift in Sources */,
+				0620779B23F51358002DCE99 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077A723F51359002DCE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062077B023F51359002DCE99 /* LYVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062077B223F51359002DCE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062077BB23F51359002DCE99 /* LYVideoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062077AD23F51359002DCE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0620779423F51358002DCE99 /* LYVideoPlayer */;
+			targetProxy = 062077AC23F51359002DCE99 /* PBXContainerItemProxy */;
+		};
+		062077B823F51359002DCE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0620779423F51358002DCE99 /* LYVideoPlayer */;
+			targetProxy = 062077B723F51359002DCE99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0620779E23F51358002DCE99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0620779F23F51358002DCE99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		062077A323F51359002DCE99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062077A423F51359002DCE99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062077BD23F51359002DCE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		062077BE23F51359002DCE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062077C023F51359002DCE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		062077C123F51359002DCE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		062077C323F51359002DCE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYVideoPlayer.app/LYVideoPlayer";
+			};
+			name = Debug;
+		};
+		062077C423F51359002DCE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYVideoPlayer.app/LYVideoPlayer";
+			};
+			name = Release;
+		};
+		062077C623F51359002DCE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYVideoPlayer;
+			};
+			name = Debug;
+		};
+		062077C723F51359002DCE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiayuan.LYVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0620779023F51358002DCE99 /* Build configuration list for PBXProject "LYVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062077BD23F51359002DCE99 /* Debug */,
+				062077BE23F51359002DCE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062077BF23F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062077C023F51359002DCE99 /* Debug */,
+				062077C123F51359002DCE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062077C223F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062077C323F51359002DCE99 /* Debug */,
+				062077C423F51359002DCE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062077C523F51359002DCE99 /* Build configuration list for PBXNativeTarget "LYVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062077C623F51359002DCE99 /* Debug */,
+				062077C723F51359002DCE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0620778D23F51358002DCE99 /* Project object */;
+}
