@@ -19,6 +19,7 @@
 		06207AA123F53BDF002DCE99 /* LYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */; };
 		06207AA323F53C79002DCE99 /* LYBaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */; };
 		06207AA523F53CE4002DCE99 /* LYLLiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */; };
+		06207D7A23F54D01002DCE99 /* LYPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06207D7923F54D01002DCE99 /* LYPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseViewController.swift; sourceTree = "<group>"; };
 		06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseListViewController.swift; sourceTree = "<group>"; };
 		06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLLiveListViewController.swift; sourceTree = "<group>"; };
+		06207D7923F54D01002DCE99 /* LYPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				0620779A23F51358002DCE99 /* SceneDelegate.swift */,
 				0620779C23F51358002DCE99 /* ViewController.swift */,
 				06207AA423F53CE4002DCE99 /* LYLLiveListViewController.swift */,
+				06207D7923F54D01002DCE99 /* LYPlayerViewController.swift */,
 				06207AA023F53BDF002DCE99 /* LYBaseViewController.swift */,
 				06207AA223F53C79002DCE99 /* LYBaseListViewController.swift */,
 				062077C823F51439002DCE99 /* LYMainTabBarViewController.swift */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06207D7A23F54D01002DCE99 /* LYPlayerViewController.swift in Sources */,
 				06207AA323F53C79002DCE99 /* LYBaseListViewController.swift in Sources */,
 				06207AA123F53BDF002DCE99 /* LYBaseViewController.swift in Sources */,
 				06207AA523F53CE4002DCE99 /* LYLLiveListViewController.swift in Sources */,
