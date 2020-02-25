@@ -18,16 +18,6 @@ class LYBaseListViewController: LYBaseViewController {
     var tableView = UITableView()
 //    var collectionView =
     var dataSource = Array<Any>()
-    /*
-     测试revert
-     */
-    /*
-     二次提交测试
-     */
-    
-    /*
-     hhhh
-     */
     
     func createListView() -> UIScrollView {
         if isTableView {
